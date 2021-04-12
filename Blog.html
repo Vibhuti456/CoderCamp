@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coder Camp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+             <a href="index.html"><h1>CoderCamp</h1></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="About.html">About</a></li>
+                     <li><a href="Course.html">Course</a></li>
+                     <li><a href="Blog.html">Blog</a></li>
+                     <li><a href="Contact.html">Contact</a></li>
+                 </ul>
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+         <h2>Our Certificate & Online Programs</h2>
+    </section>
+
+    <section class="Blog-content">
+        <div class="row">
+            <div class="blog-left">
+               <img src="Images/certificate.jpg" alt="certificate">
+               <h2>Our Certificate & Online Programs</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tenetur voluptatum, excepturi, libero officiis molestiae ut cupiditate fuga deserunt fugit dicta! Nemo, numquam deleniti incidunt voluptatibus in a repudiandae delectus dignissimos iste. Quasi neque quisquam architecto accusantium, laudantium ex ullam voluptates, tenetur, tempore nesciunt illum animi? Accusantium adipisci iure illum!</p>
+               <br>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, facere ipsum! Harum totam nam numquam recusandae aut! Facere distinctio iusto repellat suscipit aut mollitia nihil! Recusandae aliquid blanditiis deserunt ipsum et dignissimos molestiae corporis accusantium vitae laboriosam libero eius fuga voluptas, asperiores ullam fugit dicta cupiditate delectus laborum omnis earum vel labore nulla! Voluptates officia maxime ratione dicta, enim repudiandae.</p>
+               <br>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dolorum saepe, a quaerat eos rerum repellat rem exercitationem iusto nemo officia quos impedit nam perspiciatis expedita officiis aliquid est nisi laboriosam porro consequatur velit eum. Assumenda ullam quae saepe! Molestias. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi numquam assumenda minima sapiente iure dolore repellat obcaecati quasi tempora rerum distinctio doloremque tenetur laudantium sit expedita eaque facilis veniam libero, quas molestias fuga et magni ea eum? Possimus, repellat! Quas sed cumque fugit, nisi ex corrupti minima doloremque sequi fugiat placeat hic exercitationem saepe, consequuntur ducimus unde? Nobis earum sit ratione consequatur officiis suscipit reprehenderit asperiores quo temporibus expedita. Ut.</p>
+
+               <div class="comment-box">
+                   <h3>Leave A Comment</h3>
+
+                   <form class="comment-form">
+                       <input type="text" name="name" placeholder="Enter Name">
+                       <input type="email" name="email" placeholder="Enter Email">
+                       <textarea name="msg" cols="30" rows="10" placeholder="Enter Comment"></textarea>
+                       <button type="submit" class="Btn red-btn">Post Comment</button>
+                   </form>
+               </div>
+            </div>
+    </section>
+
+    
+<section class="footer">
+         <h4>About Us</h4>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Explicabo debitis officiis beatae. Aut quam fugit animi adipisci saepe eligendi soluta?</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+
+</section>
+    <script>
+        let navLinks=document.getElementById("navLinks");
+
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";   
+        }
+    </script>
+</body>
+</html>
